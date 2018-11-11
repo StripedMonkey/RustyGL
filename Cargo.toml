@@ -1,0 +1,12 @@
+[package]
+name = "rusty1"
+version = "0.1.0"
+
+[profile.release]
+debug = false
+lto = true
+opt-level = "s"
+
+[dependencies]
+cgmath = "0.16.1"
+glium = "*"
